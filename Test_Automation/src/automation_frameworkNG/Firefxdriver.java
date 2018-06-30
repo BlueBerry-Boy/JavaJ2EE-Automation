@@ -19,7 +19,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 			
 			driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 			
-			String url= "www.instagram.com";
+			String url= "www.Google.com";
 			driver.get(url);
 			
 			System.out.println(driver.getCurrentUrl());
