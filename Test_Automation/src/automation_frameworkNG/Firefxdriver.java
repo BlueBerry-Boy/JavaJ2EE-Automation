@@ -15,6 +15,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 			
 			
 			WebDriver driver;
+			
 			driver = new FirefoxDriver();
 			
 			driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);

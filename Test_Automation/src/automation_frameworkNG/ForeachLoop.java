@@ -23,7 +23,7 @@ public class ForeachLoop {
 			sum += s;
 		}
 		
-		System.out.println("The Total value is " + sum);
+		System.out.println("The total value is " + sum);
 	}
 
 }
