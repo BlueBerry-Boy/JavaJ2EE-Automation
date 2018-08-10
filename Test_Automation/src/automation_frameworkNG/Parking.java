@@ -2,4 +2,4 @@ package automation_frameworkNG;
 
 //Enums
 
-  enum Parking { ECONOMY, EXECUTIVE, WEEKEND, VALET }
+  enum Parking { ECONOMY, EXECUTIVE, WEEKEND, VALET, MONTHLY }

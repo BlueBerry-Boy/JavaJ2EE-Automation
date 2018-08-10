@@ -6,9 +6,9 @@ public class Park {
 	
 		 Parking prk;
 		 
-		 prk = Parking.VALET;
+		 prk = Parking.MONTHLY;
 		 
-		System.out.println(prk);
+		System.out.println("You selected " + prk + " Parking");
 		 
 		// System.out.println(Parking.VALET);
 		 
@@ -29,6 +29,10 @@ public class Park {
 			 
 		 case VALET:
 			 System.out.println("The Valet is $20");
+			 break;
+			 
+		 case MONTHLY:
+			 System.out.println("Monthly Parking is $100");
 			 break;
 			 
 		 }
